@@ -1,0 +1,30 @@
+.contenair{
+    width:400px;
+    height: 500px;
+    background-color: yellow;
+    position:relative
+}
+
+.front {
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 20;
+    transition:all 0.3s
+}
+
+.front:hover{
+    opacity: 0;
+}
+
+.back {
+    width:100%;
+    height: 100%;
+    position:absolute;
+    background-color: orange;
+    z-index: 10;
+    top:0;
+    right: 0;
+    cursor: pointer;}
+

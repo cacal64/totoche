@@ -1,0 +1,22 @@
+.homeDay{
+    background-color: cadetblue;
+    height: 200px;
+}
+
+.footerDay {
+    background-color: chocolate;
+    height: 100px;}.homeNight{
+    background-color: blue;
+    height: 200px;
+}
+
+.homeNight{
+    background-color: blue;
+    height: 200px;
+}
+
+.footerNight {
+    background-color: blueviolet;
+    height: 100px;}svg {
+    cursor: pointer;
+}

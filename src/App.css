@@ -1,0 +1,38 @@
+.App {
+  
+  color: white;
+  background-color: #00040a;
+  justify-content: space-between;
+  display: flex;
+}
+
+.Header-link {
+  color: #f3b312;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Header {
+  background-color: #f3efea;
+  min-height: 900px;
+  display: flex;
+  align-items: right;
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
